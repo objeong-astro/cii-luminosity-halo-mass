@@ -1,0 +1,37 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: z, datatype: float64}
+# - {name: logM1, datatype: float64}
+# - {name: logM1_low, datatype: float64}
+# - {name: logM1_up, datatype: float64}
+# - {name: logN, datatype: float64}
+# - {name: logN_low, datatype: float64}
+# - {name: logN_up, datatype: float64}
+# - {name: alpha, datatype: float64}
+# - {name: alpha_low, datatype: float64}
+# - {name: alpha_up, datatype: float64}
+# - {name: beta, datatype: float64}
+# - {name: beta_low, datatype: float64}
+# - {name: beta_up, datatype: float64}
+# - {name: Tb, unit: uK, datatype: float64}
+# - {name: Tb_low, unit: uK, datatype: float64}
+# - {name: Tb_up, unit: uK, datatype: float64}
+# - {name: b_eff, datatype: float64}
+# - {name: b_eff_low, datatype: float64}
+# - {name: b_eff_up, datatype: float64}
+# - {name: P_shot, datatype: float64, description: h^-3 Mpc^3 uK^2}
+# - {name: P_shot_low, datatype: float64, description: h^-3 Mpc^3 uK^2}
+# - {name: P_shot_up, datatype: float64, description: h^-3 Mpc^3 uK^2}
+# - {name: k_c, datatype: float64, description: h Mpc^-1}
+# - {name: k_c_low, datatype: float64, description: h Mpc^-1}
+# - {name: k_c_up, datatype: float64, description: h Mpc^-1}
+# - {name: A_pf, datatype: float64}
+# - {name: A_pf_low, datatype: float64}
+# - {name: A_pf_up, datatype: float64}
+# - {name: f_growth, datatype: float64}
+# - {name: sigma_v, datatype: float64, description: h^-1 Mpc}
+# schema: astropy-2.0
+z logM1 logM1_low logM1_up logN logN_low logN_up alpha alpha_low alpha_up beta beta_low beta_up Tb Tb_low Tb_up b_eff b_eff_low b_eff_up P_shot P_shot_low P_shot_up k_c k_c_low k_c_up A_pf A_pf_low A_pf_up f_growth sigma_v
+4.5 11.656 11.323 12.044 -3.1054 -3.345 -2.8557 2.2144 1.1151 3.3974 1.9741 0.60744 3.3569 0.16777 0.11481 0.2269 3.8737 3.4105 4.3753 11.308 4.9109 39.483 0.36852 0.26426 0.5034 45.436 22.542 92.906 0.99306 1.3425
+5.5 11.257 11.006 11.555 -3.0924 -3.2931 -2.8891 2.4262 1.2356 3.5071 1.9957 0.65728 3.3576 0.12118 0.088428 0.16308 4.2862 3.9003 4.6469 3.7966 2.0628 10.021 0.43635 0.34192 0.55472 64.181 37.88 111.97 0.99616 1.1406
